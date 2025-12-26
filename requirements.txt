@@ -1,0 +1,9 @@
+Requirements:
+
+streamlit
+pandas
+langchain
+langchain-community
+langchain-ollama
+langchain-experimental
+plotly
