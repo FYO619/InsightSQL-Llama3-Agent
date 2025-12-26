@@ -1,19 +1,10 @@
-# --- Python Environment ---
-# We don't upload the "engine" that runs the code, only the code itself
-__pycache__/
+# Python environment
 .venv/
 venv/
-env/
-*.py[cod]
+__pycache__/
 
-# --- Database & Privacy (CRITICAL) ---
-# This ensures your business.db stays on your local E: drive only
-*.db
-*.sqlite
-data/
+# Database (Privacy)
+data/business.db
 
-# --- Streamlit & System ---
-# Local configuration and OS-specific clutter
-.streamlit/
+# OS files
 .DS_Store
-Thumbs.db
